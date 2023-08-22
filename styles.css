@@ -1,26 +1,27 @@
-/* Reset some default styles */
+/* Reset some default styling */
 body, h1, h2, h3, p, ul, li {
     margin: 0;
     padding: 0;
 }
 
-/* Basic styling */
 body {
     font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
 }
 
 header {
     background-color: #333;
     color: white;
-    padding: 10px;
+    padding: 10px 0;
+    text-align: center;
 }
 
 nav ul {
     list-style: none;
-    display: flex;
 }
 
-nav li {
+nav ul li {
+    display: inline;
     margin-right: 20px;
 }
 
@@ -29,22 +30,22 @@ nav a {
     color: white;
 }
 
-main {
+.main-section {
+    background-color: white;
     padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
-.intro {
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-.services ul {
-    list-style: square;
+form label, form select, form button {
+    margin-bottom: 10px;
+    display: block;
 }
 
 footer {
     text-align: center;
+    padding: 10px;
     background-color: #333;
     color: white;
-    padding: 10px;
 }
